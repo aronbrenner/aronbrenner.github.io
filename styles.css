@@ -274,15 +274,6 @@ details.explainer summary:hover::after { border-color: var(--accent); }
 .ex-link { margin: 1.25rem 0 0; font-size: .875rem; }
 .ex-link a { text-decoration: underline; text-underline-offset: 2px; }
 
-footer {
-  grid-column: 1 / -1;
-  margin-top: 3rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--rule);
-  color: var(--muted);
-  font-size: .8rem;
-}
-
 /* ---------- Mobile ---------- */
 @media (max-width: 820px) {
   .wrap {
@@ -300,5 +291,4 @@ footer {
   .ex-body { padding: .25rem .75rem 1.75rem; }
   ol.pubs > li { grid-template-columns: 1fr; gap: .15rem; padding: .8rem .75rem; }
   .date { text-align: left; padding-top: 0; }
-  footer { margin-top: 2rem; }
 }
