@@ -172,8 +172,8 @@ ol.pubs > li:hover { background: var(--hover); }
   color: var(--text);
   margin-bottom: .25rem;
 }
-a.pub-title:hover { color: var(--accent); text-decoration: none; }
-ol.pubs > li:hover a.pub-title { color: var(--accent); }
+.pub-title:hover { color: var(--accent); text-decoration: none; }
+ol.pubs > li:hover .pub-title { color: var(--accent); }
 
 .authors {
   font-size: .875rem;
